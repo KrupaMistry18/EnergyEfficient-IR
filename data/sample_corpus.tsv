@@ -1,0 +1,5 @@
+D1	Introduction to Neural Networks	Neural networks are machine learning models inspired by biological neurons. They are used for image recognition, NLP, and many other tasks.
+D2	Support Vector Machines	SVMs are supervised machine learning models that analyze data for classification and regression analysis.
+D3	Convolutional Neural Networks	CNNs are specialized neural networks for processing data with a grid-like topology, such as images, using convolutional layers.
+D4	Recommender Systems Overview	Recommender systems suggest items to users based on preferences and behaviors, using collaborative or content-based filtering.
+D5	Dimensionality Reduction Techniques	PCA and t-SNE reduce the dimensionality of data while preserving important structure for visualization and efficiency.

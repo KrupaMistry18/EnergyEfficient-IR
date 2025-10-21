@@ -1,0 +1,32 @@
+cat > .gitignore << 'EOF'
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Artifacts / models / caches
+artifacts/
+*.faiss
+*.npy
+*.joblib
+
+# Logs & misc
+*.log
+
+# Optional: keep sample data but ignore very large datasets
+data/*.tsv
+!data/sample_corpus.tsv
+!data/sample_queries.tsv
+!data/sample_qrels.tsv
+!data/big_corpus.tsv
+!data/big_queries.tsv
+!data/big_qrels.tsv
+EOF
